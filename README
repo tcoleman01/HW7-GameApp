@@ -1,0 +1,44 @@
+===========================================================
+How to Run the Game Database App
+===========================================================
+
+This application allows you to look up video games based on 
+what platform they are on (like PC, Nintendo Switch, etc.).
+
+STEP 1: GET THE TOOLS READY
+---------------------------
+1. Make sure you have Node.js installed on your computer.
+2. Open your terminal (Command Prompt on Windows or Terminal on Mac).
+3. Type the following command and hit Enter to install the 
+   necessary "helper" files:
+   
+   npm install mysql2 readline-sync
+
+STEP 2: PREPARE THE DATABASE
+----------------------------
+1. Open MySQL Workbench.
+2. Open the file 'Hwk7_dbos_[LastnameF].sql' and click the 
+   Lightning Bolt icon to run it. This sets up the search 
+   logic for the app.
+
+STEP 3: RUN THE APP
+-------------------
+1. In your terminal, make sure you are in the same folder 
+   as the 'GameApp.js' file.
+2. Type this command and hit Enter:
+
+   node GameApp.js
+
+STEP 4: USING THE APP
+---------------------
+1. When asked, type your MySQL Username (usually 'root') 
+   and your Password.
+2. Choose '1' from the menu to see the list of platforms.
+3. Type a platform name from the list (it doesn't matter if 
+   you use capital letters or lowercase).
+4. The app will show you the games!
+5. When you are finished, choose '2' to exit.
+
+-----------------------------------------------------------
+Language used for this project: JavaScript (Node.js)
+===========================================================
