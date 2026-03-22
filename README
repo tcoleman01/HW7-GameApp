@@ -17,7 +17,7 @@ STEP 1: GET THE TOOLS READY
 STEP 2: PREPARE THE DATABASE
 ----------------------------
 1. Open MySQL Workbench.
-2. Open the file 'Hwk7_dbos_[LastnameF].sql' and click the 
+2. Open the file 'Hwk7_dbos_colemant.sql' and click the 
    Lightning Bolt icon to run it. This sets up the search 
    logic for the app.
 
